@@ -6,11 +6,11 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '/',
+        publicPath: '/dist',
         filename: 'main.js'
     },
     devServer: {
-        contentBase: path.resolve(__dirname, 'dist')
+        // contentBase: path.resolve(__dirname, 'dist')
     },
     devtool: 'source-map',
     module: {
